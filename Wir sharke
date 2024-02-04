@@ -1,0 +1,11 @@
+just scan a specific IP on a Specific protocol. Basically, You can Scan Your Entire network at a Microscopic level.
+
+
+
+apt update && apt upgrade -y
+pkg install x11-repo
+apt install wireshark-gtk xterm tigervnc tigervnc-viewer -y
+vncserver
+export DISPLAY=":1"
+vncserver -list
+wireshark-gtk
